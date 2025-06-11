@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<!-- saved from url=(0151)file:///C:/Users/user/OneDrive/Desktop/UAS_Final_Apkom_Muhammad%20Yusaahila%20Akbar%20Riziq/HydroSeat%20-%20Premium%20Hydraulic%20Chair%20Solution.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroSeat - Premium Hydraulic Chair Solutions</title>
+    <link rel="stylesheet" href="./HydroSeat - Premium Hydraulic Chair Solutions_files/all.min.css">
+    <link href="./HydroSeat - Premium Hydraulic Chair Solutions_files/css2.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EEE2DE;
+            color: #2B2A4C;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        .header {
+            background-color: #2B2A4C;
+            color: white;
+            padding: 12px 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            animation: slideDown 0.5s ease-out;
+        }
+        .header-content {
+            flex: 1;
+            padding-left: 20px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .header-tagline {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 5px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #EEE2DE;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .company-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 2px;
+            margin-left: 0;
+            text-align: center;
+            line-height: 1.2;
+            color: #EA906C;
+        }
+        .tagline {
+            font-size: 13px;
+            font-style: italic;
+            text-align: center;
+            margin-left: 0;
+            margin-bottom: 1px;
+            line-height: 1.2;
+            color: #EEE2DE;
+        }
+        .tabs {
+            display: flex;
+            background-color: #2B2A4C;
+            overflow-x: auto;
+            position: relative;
+            animation: fadeIn 0.8s ease-out;
+        }
+        .tab {
+            padding: 15px 20px;
+            color: #EEE2DE;
+            cursor: pointer;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        .tab:hover {
+            background-color: #B31312;
+            transform: translateY(-2px);
+        }
+        .tab.active {
+            background-color: #EA906C;
+            font-weight: bold;
+            color: #2B2A4C;
+        }
+        .promo-banner {
+            background-color: #B31312;
+            color: white;
+            text-align: center;
+            padding: 15px 20px; 
+            font-size: 24px;
+            font-weight: bold;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px; 
+            box-sizing: border-box;
+            animation: pulseBg 2s infinite alternate;
+        }
+        .promo-banner span {
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        @keyframes pulseBg {
+            0% { background-color: #B31312; }
+            100% { background-color: #e74c3c; }
+        }
+        @keyframes slideDown {
+            from { transform: translateY(-100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .content {
+            padding: 25px;
+            display: none;
+            max-width: 1200px;
+            margin: 0 auto;
+            animation: fadeIn 0.5s ease-out;
+        }
+        .content.active {
+            display: block;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            animation: float 4s ease-in-out infinite;
+        }
+        .product-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        .product-image {
+            height: 220px;
+            background-color: #EEE2DE;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2B2A4C;
+            transition: all 0.3s;
+        }
+        .product-card:hover .product-image {
+            background-color: #EA906C;
+        }
+        .product-info {
+            padding: 20px;
+        }
+        .product-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 18px;
+            color: #2B2A4C;
+        }
+        .product-price {
+            color: #B31312;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        .add-to-cart {
+            background-color: #2B2A4C;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .add-to-cart:hover {
+            background-color: #EA906C;
+            color: #2B2A4C;
+            transform: translateY(-2px);
+        }
+        .account-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            animation: fadeInUp 0.5s ease-out;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #2B2A4C;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: inherit;
+            transition: all 0.3s;
+        }
+        input:focus, select:focus, textarea:focus {
+            border-color: #EA906C;
+            box-shadow: 0 0 0 3px rgba(234, 144, 108, 0.2);
+            outline: none;
+        }
+        .save-btn {
+            background-color: #2B2A4C;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .save-btn:hover {
+            background-color: #EA906C;
+            color: #2B2A4C;
+            transform: translateY(-2px);
+        }
+        .welcome-section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            animation: fadeInUp 0.5s ease-out;
+        }
+        .welcome-section h2 {
+            color: #2B2A4C;
+            margin-top: 0;
+        }
+        .welcome-section h3 {
+            color: #EA906C;
+            margin-top: 25px;
+        }
+        .feature-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #EA906C;
+            transition: all 0.3s;
+        }
+        .feature-box:hover {
+            transform: translateX(5px);
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+        }
+        .benefits-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .benefit-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: all 0.3s;
+        }
+        .benefit-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            border-left: 4px solid #B31312;
+        }
+        
+        .cart-icon {
+            position: relative;
+            padding: 10px 15px;
+            border-radius: 40px;
+            background: #ffffff1a;
+            backdrop-filter:blur(6px);   
+            transition:all .25s ease;
+            animation: pulse 2s infinite;
+        }
+        .cart-icon:hover {
+            transform: scale(1.1);
+            background: #EA906C;
+        }
+        .cart-icon i{
+            font-size: 22px;
+            color:aliceblue;
+        }
+        .cart-count {
+            position: absolute;
+            top:-7px; right:8px;
+            width: 14px; height: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            background: linear-gradient(135deg,#ff513b,#ff8b00);
+            border: 2px solid #fff;
+            box-shadow: 0 0 0 2px #2B2A4C;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-5px); }
+        }
+        .cart-container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        .cart-items {
+            border-top: 1px solid #eee;
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+        .cart-item {
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            transition: all 0.3s;
+        }
+        .cart-item:hover {
+            background-color: #f9f9f9;
+        }
+        .cart-item-img {
+            width: 80px;
+            height: 80px;
+            background-color: #EEE2DE;
+            margin-right: 20px;
+            border-radius: 4px;
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+        .cart-item-details {
+            flex-grow: 1;
+        }
+        .cart-item-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #2B2A4C;
+        }
+        .cart-item-price {
+            color: #B31312;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .quantity-selector {
+            display: flex;
+            align-items: center;
+        }
+        .quantity-btn {
+            width: 30px;
+            height: 30px;
+            background: #f1f1f1;
+            border: 1px solid #ddd;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            line-height: 30px;
+            transition: all 0.2s;
+        }
+        .quantity-btn:hover {
+            background-color: #EA906C;
+            color: white;
+        }
+        .quantity-input {
+            width: 40px;
+            height: 30px;
+            text-align: center;
+            margin: 0 5px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        .cart-item-remove {
+            color: #B31312;
+            cursor: pointer;
+            margin-left: 20px;
+            font-size: 20px;
+            transition: all 0.2s;
+        }
+        .cart-item-remove:hover {
+            transform: scale(1.2);
+            color: #2B2A4C;
+        }
+        .cart-summary {
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            text-align: right;
+        }
+        .cart-total {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2B2A4C;
+        }
+        .checkout-btn {
+            background-color: #2B2A4C;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            transition: all 0.3s;
+        }
+        .checkout-btn:hover {
+            background-color: #EA906C;
+            color: #2B2A4C;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .cart-dropdown{
+            position: fixed;
+            top: 0;
+            right: -400px;
+            width: 380px;
+            height: 100vh;
+            background-color: white;
+            box-shadow: -6px 0 20px rgba(0,0,0,.35);
+            transition: right .4s ease;
+            overflow-y: auto;
+        }
+        .cart-dropdown.active{
+            right:0;
+        }
+        .cart-header {
+            padding: 15px;
+            background: #2B2A4C;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .cart-close-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+            background: none;
+            border: none;
+            z-index: 1;
+            transition: all 0.2s;
+        }
+    
+        .cart-header {
+            position: relative;
+            padding: 15px 40px 15px 15px; 
+        }
+        .cart-close-btn:hover {
+            color: #EA906C;
+            transform: scale(1.2);
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            animation: bounce 1s infinite alternate, float 3s ease-in-out infinite;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+    transform: scale(1.1) rotate(10deg);
+    animation: none;
+}
+
+.whatsapp-float i {
+    margin-top: 2px;
+}
+        
+.product-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 8px;
+    animation: modalFadeIn 0.3s;
+}
+
+@keyframes modalFadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.modal-close {
+    font-size: 24px;
+    cursor: pointer;
+    color: #777;
+    transition: all 0.2s;
+}
+.modal-close:hover {
+    color: #B31312;
+    transform: rotate(90deg);
+}
+
+.modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.modal-gallery {
+    flex: 1;
+    min-width: 300px;
+}
+
+.main-image {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    background: #EEE2DE;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+.main-image:hover {
+    transform: scale(1.02);
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.thumbnail:hover {
+    transform: scale(1.1);
+    border-color: #EA906C;
+}
+
+.modal-details {
+    flex: 1;
+    min-width: 300px;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2B2A4C;
+}
+
+.product-price {
+    font-size: 28px;
+    color: #B31312;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product-description {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.quantity-btn {
+    width: 30px;
+    height: 30px;
+    background: #f1f1f1;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.quantity-btn:hover {
+    background-color: #EA906C;
+    color: white;
+}
+
+.quantity-input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.buy-now {
+    background-color: #B31312;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.buy-now:hover {
+    background-color: #2B2A4C;
+    transform: translateY(-2px);
+}
+
+.add-to-cart-lg {
+    background-color: #2B2A4C;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.add-to-cart-lg:hover {
+    background-color: #EA906C;
+    color: #2B2A4C;
+    transform: translateY(-2px);
+}
+
+/* Added animations for cart items */
+@keyframes cartItemAppear {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.cart-item {
+    animation: cartItemAppear 0.3s ease-out forwards;
+}
+
+/* Animation for empty cart message */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
+.empty-cart-message {
+    animation: shake 0.5s ease-in-out;
+}
+
+/* Animation for product cards */
+.product-card:nth-child(1) { animation-delay: 0.1s; }
+.product-card:nth-child(2) { animation-delay: 0.2s; }
+.product-card:nth-child(3) { animation-delay: 0.3s; }
+.product-card:nth-child(4) { animation-delay: 0.4s; }
+.product-card:nth-child(5) { animation-delay: 0.5s; }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .modal-body {
+        flex-direction: column;
+    }
+    .modal-gallery, .modal-details {
+        min-width: 100%;
+    }
+    .cart-dropdown {
+        width: 100%;
+        right: -100%;
+    }
+    .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+  <div class="company-name">HydroSeat</div>
+  <div class="tagline">Spesialis Kursi Hidrolik Berkualitas Tinggi</div>
+  <div class="header-tagline">Duduk Nyaman, Kerja Aman</div>
+</div>
+        <div class="cart-icon" onclick="toggleCart()">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="cart-count" id="cartCount">0</div>
+        </div>
+        
+        <div class="cart-dropdown" id="cartDropdown">
+            <div class="cart-header">
+                <span>Keranjang Belanja</span>
+                <span id="cartTotal">Rp 0</span>
+                <button class="cart-close-btn" onclick="toggleCart()">×</button>
+            </div>
+            <div class="cart-container">
+                <div class="cart-items" id="cartItems">
+                    <div style="padding: 20px; text-align: center; color: #777;">Keranjang Anda kosong</div>
+                </div>
+                <div class="cart-summary">
+                    <div class="cart-total" id="cartSubtotal">Total: Rp 0</div>
+                    <button class="checkout-btn" onclick="openTab(&#39;cart&#39;)">Lanjutkan ke Pembayaran</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs">
+        <div class="tab active" onclick="openTab(&#39;home&#39;)">Home</div>
+        <div class="tab" onclick="openTab(&#39;office-chairs&#39;)">Office Chairs</div>
+        <div class="tab" onclick="openTab(&#39;gaming-chairs&#39;)">Gaming Chairs</div>
+        <div class="tab" onclick="openTab(&#39;ergonomic-chairs&#39;)">Ergonomic Chairs</div>
+        <div class="tab" onclick="openTab(&#39;specialty-chairs&#39;)">Specialty Chairs</div>
+        <div class="tab" onclick="openTab(&#39;contact&#39;)">Contact Us</div>
+        <div class="tab" onclick="openTab(&#39;account&#39;)">My Account</div>
+        <div class="tab" onclick="openTab(&#39;cart&#39;)" style="display: none;" id="cartTab">Cart</div>
+    </div>
+    
+    <div class="promo-banner">
+        <span>MID YEAR SALE 30%</span>
+    </div>
+
+    <div id="home" class="content active">
+        <div class="welcome-section">
+            <h2>Selamat Datang di HydroSeat – Spesialis Kursi Hidrolik Berkualitas Tinggi</h2>
+            <p>Apakah Anda mencari kursi yang tidak hanya nyaman tapi juga fungsional dan bergaya? Di <strong>HydroSeat</strong>, kami menghadirkan pilihan terbaik <strong>kursi hidrolik</strong>
+ yang dirancang khusus untuk menunjang aktivitas Anda sehari-hari — baik
+ bekerja, bermain game, atau sekadar duduk santai dengan postur yang 
+tepat.</p>
+            
+            <p>Kami percaya bahwa <strong>kenyamanan saat duduk adalah investasi untuk kesehatan dan produktivitas</strong>,
+ dan karena itu kami hanya menawarkan kursi dengan teknologi hidrolik 
+yang tangguh, mudah disesuaikan, dan tahan lama. Jelajahi koleksi kami 
+yang dirancang dengan cermat untuk berbagai kebutuhan dan gaya hidup:</p>
+            
+            <h3>🪑 Office Chairs – Profesional, Ergonomis, dan Nyaman</h3>
+            <div class="feature-box">
+                <p>Tingkatkan kenyamanan dan efisiensi kerja Anda dengan <strong>kursi kantor hidrolik HydroSeat</strong>. Didesain khusus untuk mendukung postur tubuh ideal selama jam kerja, kursi ini dilengkapi dengan <strong>gas lift hidrolik</strong>, sandaran ergonomis, serta bahan dudukan yang nyaman dan tahan lama. Cocok untuk ruang kerja pribadi maupun kantor profesional.</p>
+            </div>
+            
+            <h3>🎮 Gaming Chairs – Untuk Gamer Serius yang Butuh Performa dan Gaya</h3>
+            <div class="feature-box">
+                <p>Khusus untuk Anda para gamer, kursi gaming HydroSeat menawarkan desain sporty dengan <strong>dukungan penuh untuk tubuh Anda selama sesi bermain panjang</strong>.
+ Fitur hidrolik memungkinkan Anda mengatur ketinggian secara presisi, 
+sementara sandaran tinggi, bantalan empuk, dan armrest yang dapat 
+disesuaikan memberikan kenyamanan ekstra. Tersedia dalam berbagai warna 
+dan gaya yang siap menemani setiap momen kemenangan Anda.</p>
+            </div>
+            
+            <h3>🧘‍♂️ Ergonomic Chairs – Dukungan Maksimal untuk Kesehatan Anda</h3>
+            <div class="feature-box">
+                <p>Bagi Anda yang sering duduk dalam waktu lama, kursi ergonomis dari HydroSeat adalah solusi sempurna. Dirancang untuk <strong>menjaga tulang belakang dan mengurangi ketegangan otot</strong>,
+ kursi ini dilengkapi dengan sandaran punggung berbentuk S, lumbar 
+support, headrest yang bisa disesuaikan, serta sistem hidrolik yang 
+halus. Ideal untuk pelajar, pekerja kantoran, hingga freelance 
+profesional yang bekerja dari rumah.</p>
+            </div>
+            
+            <h3>🛠 Specialty Chairs – Kursi Hidrolik Khusus untuk Kebutuhan Spesifik</h3>
+            <div class="feature-box">
+                <p>HydroSeat juga menyediakan koleksi <strong>kursi hidrolik untuk penggunaan khusus</strong>, seperti:</p>
+                <ul>
+                    <li><strong>Kursi teknisi</strong> yang fleksibel dan mudah digerakkan</li>
+                    <li><strong>Kursi eksekutif dan rapat</strong> dengan desain elegan dan formal</li>
+                    <li><strong>Kursi tamu premium</strong> yang menambah kesan profesional di ruang kerja Anda</li>
+                </ul>
+                <p>Setiap kursi dirancang dengan struktur kokoh dan material pilihan untuk menjamin <strong>daya tahan dan kenyamanan jangka panjang</strong>.</p>
+            </div>
+            
+            <h3>🔧 Keunggulan Kursi Hidrolik dari HydroSeat:</h3>
+            <div class="benefits-list">
+                <div class="benefit-item">Pengaturan tinggi otomatis (gas lift hidrolik) yang presisi</div>
+                <div class="benefit-item">Desain ergonomis yang mendukung postur tubuh sehat</div>
+                <div class="benefit-item">Material premium: mesh bernapas, kulit sintetis, atau kain berkualitas</div>
+                <div class="benefit-item">Struktur rangka kuat dan tahan lama</div>
+                <div class="benefit-item">Desain modern yang cocok untuk berbagai interior ruangan</div>
+            </div>
+            
+            <h3>✨ Mengapa Belanja di HydroSeat?</h3>
+            <div class="benefits-list">
+                <div class="benefit-item">✅ Produk Original, Bergaransi &amp; Teruji Kualitasnya</div>
+                <div class="benefit-item">🚚 Pengiriman Cepat &amp; Aman ke Seluruh Indonesia</div>
+                <div class="benefit-item">🛠 Layanan Bantuan Perakitan &amp; Konsultasi Produk</div>
+                <div class="benefit-item">💰 Harga Terjangkau &amp; Promo Menarik Setiap Bulan</div>
+                <div class="benefit-item">🤝 Pelayanan Ramah &amp; Responsif, Kepuasan Anda Prioritas Kami</div>
+            </div>
+            
+            <p><strong>💺 Temukan kursi terbaik untuk Anda, dan rasakan perbedaannya sejak dudukan pertama.</strong><br>
+            <strong>🌐</strong> Kunjungi katalog lengkap kami sekarang 
+di HydroSeat dan dapatkan kursi hidrolik yang tidak hanya terlihat 
+elegan, tapi juga mendukung produktivitas dan kesehatan Anda setiap 
+hari.</p>
+        </div>
+
+        <h3>Featured Products</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/51A2Dv60FpL._AC_UF894,1000_QL80_.jpg" alt="Kursi Kantor HydroSeat Hitam" style="width:100%; height:100%; object-fit:contain;">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">Executive Pro Series</div>
+                    <div class="product-price">Rp 2.399.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Executive Pro Series&#39;, 2399000, &#39;https://m.media-amazon.com/images/I/51A2Dv60FpL._AC_UF894,1000_QL80_.jpg&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/71DlNwhYT1L._AC_SX679_.jpg" alt="Kursi Gaming" style="width:100%; height:100%; object-fit:contain;">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">Gamer HydroSeat Xtreme</div>
+                    <div class="product-price">Rp 2.999.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Gamer HydroSeat Xtreme&#39;, 2999000, &#39;https://m.media-amazon.com/images/I/71DlNwhYT1L._AC_SX679_.jpg&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/51Mj2QxQANL._AC_SL1274.webp" alt="Kursi Ergonomik" style="width:100%; height:100%; object-fit:contain;">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">Ergo HydroSeat Comfort</div>
+                    <div class="product-price">Rp 4.599.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Ergonomic Chair&#39;, 4599000, &#39;https://ajmalbeauty.com/cdn/shop/files/51Mj2QxQANL._AC_SL1274.jpg?v=1729346254&amp;width=823&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- All other tabs remain completely unchanged from the original -->
+    <div id="office-chairs" class="content">
+        <h2>Office Chairs Collection</h2>
+        <p>Professional hydraulic chairs for your workspace.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/mirus-hrlr-gr-Tpink-45Rext.webp" alt="Kursi Kantor Rebah (Reclining)" style="width:100%; height:100%; object-fit:contain;">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">Executive HydroLift 3000</div>
+                    <div class="product-price">Rp 4.999.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Executive HydroLift 3000&#39;, 4999000, &#39;https://ergohuman.store/cdn/shop/files/mirus-hrlr-gr-Tpink-45Rext.jpg?v=1740654641&amp;width=1080&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/ergohuman-nhr-bk-Tbk-45R.webp" alt="Manager HydroLift 2500" style="width:100%; height:100%; object-fit:contain;">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">Manager HydroLift 2500</div>
+                    <div class="product-price">Rp 3.999.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Manager HydroLift 2500&#39;, 399000, &#39;https://ergohuman.store/cdn/shop/files/ergohuman-nhr-bk-Tbk-45R.jpg?v=1729765263&amp;width=1080&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gaming-chairs" class="content">
+        <h2>Gaming Chairs Collection</h2>
+        <p>High-performance hydraulic chairs for gamers.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/kursi-gaming-da-racing-e-royal.jpg" alt="Pro Gamer HydroFlex" style="width:100%; height:100%; object-fit:contain;">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">Pro Gamer HydroFlex</div>
+                    <div class="product-price">Rp 3.299.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Pro Gamer HydroFlex&#39;, 3299000, &#39;https://kkomputer.com/5060-thickbox_default/kursi-gaming-da-racing-e-royal.jpg&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/S706b8bed61fc4393ba0f9bd11a485a16T.jpg_640x640q90.webp" alt="Streamer HydroMax" style="width: 100%; height: 100%; object-fit: contain;">
+                         </div>
+                <div class="product-info">
+                    <div class="product-title">Streamer HydroMax</div>
+                    <div class="product-price">Rp 2.499.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Streamer HydroMax&#39;, 2499000, &#39;https://ae01.alicdn.com/kf/S706b8bed61fc4393ba0f9bd11a485a16T.jpg_640x640q90.jpg&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ergonomic-chairs" class="content">
+        <h2>Ergonomic Chairs Collection</h2>
+        <p>Health-focused hydraulic chairs for proper posture.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/Milson_Ergonomic_Chair.webp" alt="Ergo HydroSupport" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">Ergo HydroSupport</div>
+                    <div class="product-price">Rp 4.599.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Ergo HydroSupport&#39;, 4599000, &#39;https://cdn.shopify.com/s/files/1/0702/2834/5113/files/Milson_Ergonomic_Chair.jpg?v=1705913107&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/h1-pro-v2_a2780bcd-5495-4fab-b8d8-dd99a0db0189.webp" alt="ErgoHydroCare" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">Ergo HydroCare</div>
+                    <div class="product-price">Rp 5.299.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Ergo HydroCare&#39;, 5299000, &#39;https://www.hinomi.co/cdn/shop/files/h1-pro-v2_a2780bcd-5495-4fab-b8d8-dd99a0db0189.jpg?v=1729153317&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="specialty-chairs" class="content">
+        <h2>Specialty Chairs Collection</h2>
+        <p>Unique hydraulic chairs for specific needs.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/61pZSx8buzL.jpg" alt="Barber HydroStyle" style="width: 100%; height: 100%; object-fit: contain;">
+                         </div>
+                <div class="product-info">
+                    <div class="product-title">Barber HydroStyle</div>
+                    <div class="product-price">Rp 3.899.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Barber HydroStyle&#39;, 3899000, &#39;https://m.media-amazon.com/images/I/61pZSx8buzL.jpg&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./HydroSeat - Premium Hydraulic Chair Solutions_files/3310_G_1695017464317.jpg" alt="DentalHydroPro" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+                <div class="product-info">
+                    <div class="product-title">Dental HydroPro</div>
+                    <div class="product-price">Rp 8.999.000</div>
+                    <button class="add-to-cart" onclick="openProductModal(&#39;Dental HydroPro&#39;, 8999000, &#39;https://www.dentalsalemall.com/images/202309/goods_img/3310_G_1695017464317.jpg&#39;)">Lihat Detail</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="content">
+        <h2>Contact HydroSeat</h2>
+        <p>Have questions? Reach out to our customer service team.</p>
+        <div style="background-color: white; padding: 20px; border-radius: 5px;">
+            <p><strong>Email:</strong> support@hydroseat.com</p>
+            <p><strong>Phone:</strong> 1-800-HYDRO-SEAT</p>
+            <p><strong>Address:</strong> 123 Comfort Street, Ergocity, EC 12345</p>
+        </div>
+    </div>
+
+    <div id="account" class="content">
+        <h2>My Account</h2>
+        <div class="account-form">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="address">Shipping Address</label>
+                <textarea id="address" rows="3" style="width: 100%;"></textarea>
+            </div>
+            <button class="save-btn">Save Information</button>
+        </div>
+    </div>
+
+    <div id="cart" class="content">
+        <div class="cart-container">
+            <h1>Keranjang Belanja</h1>
+
+            <div class="cart-items" id="cartPageItems">
+                <div style="padding: 20px; text-align: center; color: #777;">Keranjang Anda kosong</div>
+            </div>
+
+            <div class="cart-summary">
+                <div class="cart-total" id="cartPageTotal">Total: Rp 0</div>
+                <button class="checkout-btn">Lanjutkan ke Pembayaran</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let cart = [];
+        
+        function openTab(tabName) {
+            // Hide all tab contents
+            const contents = document.getElementsByClassName('content');
+            for (let i = 0; i < contents.length; i++) {
+                contents[i].classList.remove('active');
+            }
+            
+            // Deactivate all tabs
+            const tabs = document.getElementsByClassName('tab');
+            for (let i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove('active');
+            }
+            
+            // Activate the selected tab and content
+            document.getElementById(tabName).classList.add('active');
+            event.currentTarget.classList.add('active');
+            
+            // If opening cart tab, update cart display
+            if (tabName === 'cart') {
+                updateCartPage();
+            }
+        }
+        
+        function toggleCart() {
+            const cartDropdown = document.getElementById('cartDropdown');
+            cartDropdown.classList.toggle('active');
+        }
+        
+        function addToCart(name, price, image) {
+            // Check if item already exists in cart
+            const existingItem = cart.find(item => item.name === name);
+            
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({
+                    name: name,
+                    price: price,
+                    image: image,
+                    quantity: 1
+                });
+            }
+            
+            updateCartDisplay();
+            showAddedToCartMessage(name);
+        }
+        
+        function updateCartDisplay() {
+            const cartItemsContainer = document.getElementById('cartItems');
+            const cartCount = document.getElementById('cartCount');
+            const cartTotal = document.getElementById('cartTotal');
+            const cartSubtotal = document.getElementById('cartSubtotal');
+            
+            // Update cart count
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            cartCount.textContent = totalItems;
+            
+            // Show/hide empty cart message
+            if (cart.length === 0) {
+                cartItemsContainer.innerHTML = '<div style="padding: 20px; text-align: center; color: #777;">Keranjang Anda Kosong</div>';
+                cartTotal.textContent = 'Rp 0';
+                cartSubtotal.textContent = 'Total: Rp 0';
+                return;
+            }
+            
+            // Update cart items display
+            cartItemsContainer.innerHTML = '';
+            let subtotal = 0;
+            
+            cart.forEach(item => {
+                const itemTotal = item.price * item.quantity;
+                subtotal += itemTotal;
+                
+                const cartItemElement = document.createElement('div');
+                cartItemElement.className = 'cart-item';
+                cartItemElement.innerHTML = `
+                    <div class="cart-item-img">
+                        <img src="${item.image}" alt="${item.name}" style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="cart-item-details">
+                        <div class="cart-item-title">${item.name}</div>
+                        <div class="cart-item-price">Rp ${item.price.toLocaleString()}</div>
+                        <div class="quantity-selector">
+                            <button class="quantity-btn" onclick="updateQuantity('${item.name}', -1)">-</button>
+                            <input type="text" class="quantity-input" value="${item.quantity}" onchange="updateQuantityInput('${item.name}', this.value)">
+                            <button class="quantity-btn" onclick="updateQuantity('${item.name}', 1)">+</button>
+                        </div>
+                    </div>
+                    <div class="cart-item-remove" onclick="removeFromCart('${item.name}')"><i class="fas fa-trash"></i></div>
+                `;
+                cartItemsContainer.appendChild(cartItemElement);
+            });
+            
+            // Update totals
+            cartTotal.textContent = `Rp ${subtotal.toLocaleString()}`;
+            cartSubtotal.textContent = `Total: Rp ${subtotal.toLocaleString()}`;
+            
+            // Show cart tab if it's hidden
+            document.getElementById('cartTab').style.display = 'block';
+        }
+        
+        function updateQuantity(name, change) {
+            const item = cart.find(item => item.name === name);
+            if (item) {
+                item.quantity += change;
+                if (item.quantity < 1) item.quantity = 1;
+                updateCartDisplay();
+                updateCartPage();
+            }
+        }
+        
+        function updateQuantityInput(name, value) {
+            const quantity = parseInt(value) || 1;
+            const item = cart.find(item => item.name === name);
+            if (item) {
+                item.quantity = quantity;
+                updateCartDisplay();
+                updateCartPage();
+            }
+        }
+        function removeFromCart(name) {
+            cart = cart.filter(item => item.name !== name);
+            updateCartDisplay();
+            updateCartPage();
+        }
+        
+        function updateCartPage() {
+            const cartPageItems = document.getElementById('cartPageItems');
+            const cartPageTotal = document.getElementById('cartPageTotal');
+            
+            if (cart.length === 0) {
+                cartPageItems.innerHTML = '<div style="padding: 20px; text-align: center; color: #777;">Keranjang Anda kosong</div>';
+                cartPageTotal.textContent = 'Total: Rp 0';
+                return;
+            }
+            
+            cartPageItems.innerHTML = '';
+            let subtotal = 0;
+            
+            cart.forEach(item => {
+                const itemTotal = item.price * item.quantity;
+                subtotal += itemTotal;
+                
+                const cartItemElement = document.createElement('div');
+                cartItemElement.className = 'cart-item';
+                cartItemElement.innerHTML = `
+                    <div class="cart-item-img">
+                        <img src="${item.image}" alt="${item.name}" style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="cart-item-details">
+                        <div class="cart-item-title">${item.name}</div>
+                        <div class="cart-item-price">Rp ${item.price.toLocaleString()}</div>
+                        <div class="quantity-selector">
+                            <button class="quantity-btn" onclick="updateQuantity('${item.name}', -1)">-</button>
+                            <input type="text" class="quantity-input" value="${item.quantity}" onchange="updateQuantityInput('${item.name}', this.value)">
+                            <button class="quantity-btn" onclick="updateQuantity('${item.name}', 1)">+</button>
+                        </div>
+                    </div>
+                    <div class="cart-item-remove" onclick="removeFromCart('${item.name}')"><i class="fas fa-trash"></i></div>
+                `;
+                
+                cartPageItems.appendChild(cartItemElement);
+            });
+            
+            cartPageTotal.textContent = `Total: Rp ${subtotal.toLocaleString()}`;
+        }
+        
+        function showAddedToCartMessage(name) {
+            const message = document.createElement('div');
+            message.textContent = `${name} added to cart!`;
+            message.style.position = 'fixed';
+            message.style.bottom = '20px';
+            message.style.right = '20px';
+            message.style.backgroundColor = '#27ae60';
+            message.style.color = 'white';
+            message.style.padding = '10px 20px';
+            message.style.borderRadius = '5px';
+            message.style.boxShadow = '0 2px 10px rgba(0,0,0,0.2)';
+            message.style.zIndex = '1000';
+            message.style.animation = 'fadeInOut 3s ease-in-out';
+            
+            document.body.appendChild(message);
+            
+            setTimeout(() => {
+                message.remove();
+            }, 3000);
+        }
+        // Fungsi untuk membuka modal produk
+function openProductModal(name, price, image) {
+    const modal = document.getElementById('productModal');
+    document.getElementById('modalProductTitle').textContent = name;
+    document.getElementById('modalProductPrice').textContent = `Rp ${price.toLocaleString()}`;
+    document.getElementById('mainImage').src = image;
+    
+    // Contoh thumbnail (bisa diganti dengan array gambar produk)
+    const thumbnailsContainer = document.querySelector('.thumbnail-container');
+    thumbnailsContainer.innerHTML = '';
+    for (let i = 0; i < 3; i++) {
+        const thumb = document.createElement('img');
+        thumb.className = 'thumbnail';
+        thumb.src = image;
+        thumb.onclick = () => document.getElementById('mainImage').src = image;
+        thumbnailsContainer.appendChild(thumb);
+    }
+    
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+}
+
+// Fungsi untuk menutup modal
+function closeModal() {
+    document.getElementById('productModal').style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// Fungsi perubahan quantity
+function changeQuantity(change) {
+    const input = document.getElementById('productQuantity');
+    let value = parseInt(input.value) + change;
+    if (value < 1) value = 1;
+    input.value = value;
+}
+
+// Fungsi tambah ke keranjang dari modal
+function addToCartFromModal() {
+    const name = document.getElementById('modalProductTitle').textContent;
+    const priceText = document.getElementById('modalProductPrice').textContent;
+    const price = parseInt(priceText.replace(/\D/g,''));
+    const quantity = parseInt(document.getElementById('productQuantity').value);
+    
+    const existingItem = cart.find(item => item.name === name);
+    if (existingItem) {
+        existingItem.quantity += quantity;
+    } else {
+        cart.push({
+            name: name,
+            price: price,
+            image: document.getElementById('mainImage').src,
+            quantity: quantity
+        });
+    }
+    
+    updateCartDisplay();
+    closeModal();
+    showAddedToCartMessage(name);
+}
+
+// Tutup modal ketika klik di luar konten
+window.onclick = function(event) {
+    const modal = document.getElementById('productModal');
+    if (event.target == modal) {
+        closeModal();
+    }
+}
+    </script>
+    
+<a href="https://wa.me/6283866078225" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+    <!-- Product Modal -->
+<div id="productModal" class="product-modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>Detail Produk</h2>
+            <span class="modal-close" onclick="closeModal()">×</span>
+        </div>
+        <div class="modal-body">
+            <div class="modal-gallery">
+                <img id="mainImage" class="main-image" src="file:///C:/Users/user/OneDrive/Desktop/UAS_Final_Apkom_Muhammad%20Yusaahila%20Akbar%20Riziq/HydroSeat%20-%20Premium%20Hydraulic%20Chair%20Solution.html" alt="Product Image">
+                <div class="thumbnail-container">
+                    <!-- Thumbnails will be added dynamically -->
+                </div>
+            </div>
+            <div class="modal-details">
+                <h1 id="modalProductTitle" class="product-title"></h1>
+                <div class="product-price" id="modalProductPrice"></div>
+                <div class="product-rating">
+                    <span class="stars">★★★★★</span>
+                    <span>(5 reviews)</span>
+                </div>
+                <div class="product-description">
+                    <p>Kursi hidrolik premium dengan material berkualitas tinggi. Dilengkapi dengan:</p>
+                    <ul>
+                        <li>Gas lift hidrolik kelas industri</li>
+                        <li>Sandaran ergonomis</li>
+                        <li>Bahan kulit sintetis tahan lama</li>
+                        <li>Armrest yang dapat disesuaikan</li>
+                    </ul>
+                </div>
+                <div class="quantity-selector">
+                    <button class="quantity-btn" onclick="changeQuantity(-1)">-</button>
+                    <input type="number" class="quantity-input" id="productQuantity" value="1" min="1">
+                    <button class="quantity-btn" onclick="changeQuantity(1)">+</button>
+                </div>
+                <div class="modal-actions">
+                    <button class="buy-now">Beli Sekarang</button>
+                    <button class="add-to-cart-lg" onclick="addToCartFromModal()">+ Keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body></html>
